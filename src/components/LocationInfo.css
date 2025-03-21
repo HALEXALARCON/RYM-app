@@ -14,6 +14,7 @@
   padding: 1em;
   border-radius: 15px;
   box-shadow: 5px 5px 0 2px #005200;
+  backdrop-filter: blur(10px) brightness(0.5); 
   transition: transform 0.3s steps(58), box-shadow 0.3s steps(58);
 }
 

@@ -20,10 +20,10 @@
 }
 
 /* Nuevas reglas para simular el efecto parallax */
-/* .hero-video {
+.hero-video {
   position: fixed !important;
   z-index: -1;
-} */
+}
 
 @media (min-width: 768px) {
   .hero {

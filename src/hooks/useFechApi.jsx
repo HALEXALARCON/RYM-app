@@ -2,7 +2,7 @@ import { useState, useCallback } from "react";
 import axios from "axios";
 
 export function useFechApi() {
-  const [data, setData] = useState(null); datos
+  const [data, setData] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
@@ -21,7 +21,9 @@ export function useFechApi() {
       }
       setData(null);
     } finally {
-        setLoading(false);  
+      setTimeout(() => {
+      setLoading(false);
+      },4000)
     }
   }, []);
 
